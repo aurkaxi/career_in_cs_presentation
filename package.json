@@ -1,0 +1,25 @@
+{
+  "name": "career_in_cs_presentation",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "pptx": "slidev export --format=pptx"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0-beta.5",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent": "^1.2.5",
+    "@iconify-json/game-icons": "^1.2.0",
+    "@iconify-json/hugeicons": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.1",
+    "playwright-chromium": "^1.48.2"
+  }
+}
