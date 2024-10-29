@@ -3,7 +3,7 @@ theme: apple-basic
 
 transition: fade-out
 layout: intro-image
-image: test2.png
+image: intro.png
 title: Intro
 fonts:
   sans: FiraCode Nerd Font Mono
@@ -30,7 +30,7 @@ fonts:
   </span>
 </div>
 
-<div class="absolute bottom-10 text-black text-with-shadow ">
+<div class="absolute bottom-0 text-black text-with-shadow ">
   <h1>Careers in Computer Science</h1>
   <p>Understanding Your Path</p>
 </div>
@@ -41,7 +41,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 layout: image-right
-image: test.png
+image: career_overview.png
 class: text-sm
 transition: slide-up
 ---
@@ -472,7 +472,7 @@ Sills Needed for Software Development</h1>
 
 ---
 layout: image-right
-image: test.png
+image: data_overview.png
 class: text-sm
 transition: slide-up
 ---
@@ -561,8 +561,8 @@ v-motion
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{y: 800}"
-      :click-1="{x: 290, y:0, transition: {delay: 200}}"
+      :initial="{x: 290, y: 800}"
+      :click-1="{y:0, transition: {delay: 200}}"
       :click-5="{x:0, transition: {delay: 0}}"
     >
       <mdi:chart-line class="text-3xl"/>
@@ -574,24 +574,25 @@ v-motion
         <li
         v-click="2"
         v-motion
-          :initial="{y: 800}"
-          :click-2="{x: 290, y:0}"
+          :initial="{x: 290, y: 800}"
+          :click-2="{y:0}"
           :click-5="{x:0}"
         >Framework for understanding data.</li>
         <li
         v-click="3"
         v-motion
-          :initial="{y: 800}"
-          :click-3="{x: 290, y:0}"
+          :initial="{x: 290, y: 800}"
+          :click-3="{y:0}"
           :click-5="{x:0}"
         >Identifies patterns and trends.</li>
         <li
         v-click="4"
         v-motion
-          :initial="{y: 800}"
-          :click-4="{x: 290, y:0}"
+          :initial="{x: 290, y: 800}"
+          :click-4="{y:0}"
           :click-5="{x:0}"
-        >Enables data-driven decisions.</li>    </ul>
+        >Enables data-driven decisions.</li>
+      </ul>
     </div>
   </div>
 
