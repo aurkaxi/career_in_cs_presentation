@@ -60,7 +60,7 @@ v-motion
   v-click="1"
   v-motion
     :initial="{x:-80}"
-    :enter="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 100}}"
   >
   <b>
   ● Career Path and Choosing a Path
@@ -251,7 +251,7 @@ v-motion
   v-click="1"
   v-motion
     :initial="{x:-80}"
-    :enter="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 100}}"
   >
   <b>
   Web Development
@@ -500,7 +500,7 @@ v-motion
   v-click="1"
   v-motion
     :initial="{x:-80}"
-    :enter="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 100}}"
 >
   <b>
   Data Analyst
@@ -710,7 +710,7 @@ v-motion
   v-click="1"
   v-motion
     :initial="{x:-80}"
-    :enter="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 100}}"
 >
   <b>
   Cybersecurity Analyst
