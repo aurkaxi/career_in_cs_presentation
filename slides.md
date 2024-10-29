@@ -5,7 +5,7 @@ transition: fade-out
 layout: intro-image
 image: intro.png
 title: Intro
-titleTemplate: 'Presentation - Careers in Computer Science'
+titleTemplate: "Presentation - Careers in Computer Science"
 favicon: favicon.png
 fonts:
   sans: FiraCode Nerd Font Mono
@@ -13,7 +13,6 @@ fonts:
   mono: FiraCode Nerd Font Mono
   provider: none
   fallbacks: false
-
 ---
 
 <style>
@@ -59,38 +58,52 @@ v-motion
 
 <br><br><br>
 
-<div class="text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em]" 
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]" 
   v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0, transition: {delay: 100}}"
   >
   <b>
-  ● Career Path and Choosing a Path
+  Career Path and Choosing a Path
   </b>
 </div>
-<br>
 
-<div class="text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="2"
+<div>
+  <ul>
+    <li v-click="2">Meaning of Career</li>
+    <li v-click="3">Choosing a Path</li>
+  </ul>
+</div>
+
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="4"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
   >
   <b>
-  ● Overview of The Computer Science Field
+  Overview of The Computer Science Field
   </b>
 </div>
-<br>
 
-<div class="text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+<div>
+  <ul>
+    <li v-click="5">Hardware Based Field</li>
+    <li v-click="6">Tech Field</li>
+  </ul>
+</div>
+
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="7"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
   >
   <b>
-  ● Why Choosing Career in Computer Science Field in Modernized World
+  Why Choosing Career in Computer Science Field in Modernized World
   </b>
 </div>
 
