@@ -5,12 +5,15 @@ transition: fade-out
 layout: intro-image
 image: intro.png
 title: Intro
+titleTemplate: 'Presentation - Careers in Computer Science'
+favicon: favicon.png
 fonts:
   sans: FiraCode Nerd Font Mono
   serif: FiraCode Nerd Font Mono
   mono: FiraCode Nerd Font Mono
   provider: none
   fallbacks: false
+
 ---
 
 <style>
