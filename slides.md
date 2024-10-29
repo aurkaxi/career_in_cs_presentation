@@ -44,14 +44,20 @@ layout: image-right
 image: career_overview.png
 class: text-sm
 transition: slide-up
+title: Career Overview
 ---
 
-# Introduction to Careers Path
+<div 
+v-motion
+  :initial="{y:200}"
+  :click-1="{y:0}">
+<h1>Introduction to Careers Path</h1>
+</div>
 
 <br><br><br>
 
 <div class="text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em]" 
-  v-click="0"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0, transition: {delay: 500}}"
@@ -63,7 +69,7 @@ transition: slide-up
 <br>
 
 <div class="text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="1"
+  v-click="2"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -75,7 +81,7 @@ transition: slide-up
 <br>
 
 <div class="text-sm pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="2"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -231,16 +237,21 @@ layout: image-right
 image: software_overview.png
 class: text-sm
 transition: slide-up
+title: Software
 ---
 
-# Overview of Software Development
-
+<div 
+v-motion
+  :initial="{y:200}"
+  :click-1="{y:0}">
+<h1>Overview of Software Development</h1>
+</div>
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="0"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
-    :click-0="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 500}}"
   >
   <b>
   Web Development
@@ -249,17 +260,17 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="1">Building websites and web applications</li>
-    <li v-click="2">Frontend, Backend, and Full Stack options</li>
+    <li v-click="2">Building websites and web applications</li>
+    <li v-click="3">Frontend, Backend, and Full Stack options</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="4"
   v-motion
     :initial="{x:-80}"
-    :click-1="{x:0}"
+    :enter="{x:0}"
   >
   <b>
   Mobile App Development
@@ -268,17 +279,17 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="4">Creating apps for iOS and Android</li>
-    <li v-click="5">Cross-platform vs. Native development</li>
+    <li v-click="5">Creating apps for iOS and Android</li>
+    <li v-click="6">Cross-platform vs. Native development</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="6"
+  v-click="7"
   v-motion
     :initial="{x:-80}"
-    :click-2="{x:0}"
+    :enter="{x:0}"
   >
   <b>
   Game Development
@@ -287,8 +298,8 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="7">Developing interactive games for different platforms</li>
-    <li v-click="8">Unity, Unreal Engine, etc.</li>
+    <li v-click="8">Developing interactive games for different platforms</li>
+    <li v-click="9">Unity, Unreal Engine, etc.</li>
   </ul>
 </div>
 
@@ -475,15 +486,21 @@ layout: image-right
 image: data_overview.png
 class: text-sm
 transition: slide-up
+title: Data
 ---
 
-# A World of Data Opportunities
+<div 
+v-motion
+  :initial="{y:200}"
+  :click-1="{y:0}">
+<h1>A World of Data Opportunities</h1>
+</div>
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="0"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
-    :click-0="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 500}}"
 >
   <b>
   Data Analyst
@@ -492,17 +509,17 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="1">Collects, cleans, and analyzes data.</li>
-    <li v-click="2">Uses SQL, Excel, and data visualization tools.</li>
+    <li v-click="2">Collects, cleans, and analyzes data.</li>
+    <li v-click="3">Uses SQL, Excel, and data visualization tools.</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="4"
   v-motion
     :initial="{x:-80}"
-    :click-3="{x:0}"
+    :enter="{x:0}"
 >
   <b>
   Data Engineer
@@ -511,18 +528,18 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="4">Builds and maintains data pipelines.</li>
-    <li v-click="5">Handles large datasets & complex systems.</li>
-    <li v-click="6">Strong programming skills required.</li>
+    <li v-click="5">Builds and maintains data pipelines.</li>
+    <li v-click="6">Handles large datasets & complex systems.</li>
+    <li v-click="7">Strong programming skills required.</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="7"
+  v-click="8"
   v-motion
     :initial="{x:-80}"
-    :click-7="{x:0}"
+    :enter="{x:0}"
 >
   <b>
   Data Scientist
@@ -531,8 +548,8 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="8">Combines statistics, machine learning, and domain knowledge.</li>
-    <li v-click="9">Develops predictive models and algorithms.</li>
+    <li v-click="9">Combines statistics, machine learning, and domain knowledge.</li>
+    <li v-click="10">Develops predictive models and algorithms.</li>
   </ul>
 </div>
 
@@ -676,19 +693,24 @@ layout: image-right
 image: cybersecurity_overview.png
 class: text-sm
 transition: slide-up
+title: Cybersecurity
 ---
 
-# Cybersecurity
-
-## A Thriving Career Path
+<div 
+v-motion
+  :initial="{y:200}"
+  :click-1="{y:0}">
+<h1>Cybersecurity</h1>
+<h2>A Thriving Career Path</h2>
+</div>
 
 <br>
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="0"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
-    :click-0="{x:0, transition: {delay: 500}}"
+    :enter="{x:0, transition: {delay: 500}}"
 >
   <b>
   Cybersecurity Analyst
@@ -697,17 +719,17 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="1">Identifies and mitigates security risks.</li>
-    <li v-click="2">Monitors networks and responds to threats.</li>
+    <li v-click="2">Identifies and mitigates security risks.</li>
+    <li v-click="3">Monitors networks and responds to threats.</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="4"
   v-motion
     :initial="{x:-80}"
-    :click-3="{x:0}"
+    :enter="{x:0}"
 >
   <b>
   Penetration Tester
@@ -716,17 +738,17 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="4">Simulates attacks to find vulnerabilities.</li>
-    <li v-click="5">Tests security and recommends improvements.</li>
+    <li v-click="5">Simulates attacks to find vulnerabilities.</li>
+    <li v-click="6">Tests security and recommends improvements.</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="6"
+  v-click="7"
   v-motion
     :initial="{x:-80}"
-    :click-6="{x:0}"
+    :enter="{x:0}"
 >
   <b>
   Cyberecurity Engineer
@@ -735,8 +757,8 @@ transition: slide-up
 
 <div>
   <ul>
-    <li v-click="7">Designs, implements, and maintains security infrastructure.</li>
-    <li v-click="8">Develops security solutions and performs audits.</li>
+    <li v-click="8">Designs, implements, and maintains security infrastructure.</li>
+    <li v-click="9">Develops security solutions and performs audits.</li>
   </ul>
 </div>
 
