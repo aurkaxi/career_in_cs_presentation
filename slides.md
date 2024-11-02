@@ -56,7 +56,7 @@ v-motion
 <h1>Introduction to Careers Path</h1>
 </div>
 
-<br><br><br>
+<br>
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]" 
   v-click="1"
@@ -735,8 +735,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Identifies and mitigates security risks.</li>
-    <li v-click="3">Monitors networks and responds to threats.</li>
+    <li v-click="2">Risk Mitigation</li>
+    <li v-click="3">Threat Response</li>
   </ul>
 </div>
 
@@ -754,8 +754,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Simulates attacks to find vulnerabilities.</li>
-    <li v-click="6">Tests security and recommends improvements.</li>
+    <li v-click="5">Simulates attacks</li>
+    <li v-click="6">Tests security</li>
   </ul>
 </div>
 
@@ -773,8 +773,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="8">Designs, implements, and maintains security infrastructure.</li>
-    <li v-click="9">Develops security solutions and performs audits.</li>
+    <li v-click="8">Infrastructure Design</li>
+    <li v-click="9">Solutions & Audits</li>
   </ul>
 </div>
 
@@ -944,6 +944,217 @@ v-motion
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
     220324 | Abdullah Al Muaz (Aurka)
+  </span>
+</div>
+
+---
+layout: image-right
+image: cybersecurity_overview.png
+class: text-sm
+transition: slide-up
+title: Strategy
+---
+
+<div 
+v-motion
+  :initial="{y:200}"
+  :click-1="{y:0}">
+<h1>Fueling Your Career</h1>
+<h2>with Experience and Knowledge</h2>
+</div>
+
+<br>
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="1"
+  v-motion
+    :initial="{x:-80}"
+    :enter="{x:0, transition: {delay: 100}}"
+>
+  <b>
+  The Power of Internships
+  </b>
+</div>
+
+<div>
+  <ul>
+    <li v-click="2">Real-world experience</li>
+    <li v-click="3">Networking opportunities.</li>
+  </ul>
+</div>
+
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="4"
+  v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}"
+>
+  <b>
+  The Value of Certifications
+  </b>
+</div>
+
+<div>
+  <ul>
+    <li v-click="5">Career advancement</li>
+    <li v-click="6">Industry recognition</li>
+  </ul>
+</div>
+
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="7"
+  v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}"
+>
+  <b>
+  The Lifelong Pursuit of Learning
+  </b>
+</div>
+
+<div>
+  <ul>
+    <li v-click="8">Stay updated</li>
+    <li v-click="9">Skill development</li>
+  </ul>
+</div>
+
+
+<div class="absolute bottom-5 right-10">
+  <span class="text-xs font-400">
+    220329 | Shahreer Islam Sayem
+  </span>
+</div>
+
+---
+transition: slide-up
+title: Strategy 2
+---
+
+<h1 class="text-center"
+v-click="0"
+v-motion
+  :click-0="{y:200}"
+  :click-1="{y:0}"
+>Building Your Professional Network and Seeking Mentorship</h1>
+<br><br><br>
+
+<div class="grid grid-cols-3 text-3.5">
+  <div class="">
+    <div class="flex flex-row items-center"
+    v-click="1"
+    v-motion
+      :initial="{x:290, y:800}"
+      :click-1="{y:0, transition: {delay: 200}}"
+      :click-5="{x:0, transition: {delay: 0}}"
+    >
+      <fluent:people-community-12-filled class="text-3xl"/>
+      <span class="text-4"><b>&nbsp;The Importance of &nbsp;Networking</b></span>
+    </div>
+    <br>
+    <div class="mx-7">
+      <ul>
+        <li
+        v-click="2"
+        v-motion
+          :initial="{x:290, y:800}"
+          :click-2="{y:0}"
+          :click-5="{x:0}"
+        >Expand connections</li>
+        <li
+        v-click="3"
+        v-motion
+          :initial="{x:290, y:800}"
+          :click-3="{y:0}"
+          :click-5="{x:0}"
+        >Advice and guidance</li>
+        <li
+        v-click="4"
+        v-motion
+          :initial="{x:290, y:800}"
+          :click-4="{y:0}"
+          :click-5="{x:0}"
+        >Collaborate</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mx-5">
+    <div class="flex flex-row items-center"
+    v-click="5"
+    v-motion
+      :initial="{y:800}"
+      :click-5="{y:0, transition: {delay: 300}}"
+    >
+      <hugeicons:mentor class="text-3xl"/>
+      <span class="text-4"><b>&nbsp;The Benefits of &nbsp;Mentorship</b></span>
+    </div>
+    <br>
+    <div class="mx-7">
+      <ul>
+        <li
+        v-click="6"
+        v-motion
+          :initial="{y:800}"
+          :click-6="{y:0}"
+        >Career guidance</li>
+        <li
+        v-click="7"
+        v-motion
+          :initial="{y:800}"
+          :click-7="{y:0}"
+        >Skill development</li>
+        <li
+        v-click="8"
+        v-motion
+          :initial="{y:800}"
+          :click-8="{y:0}"
+        >Support and encouragement</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="flex flex-row items-center"
+    v-click="9"
+    v-motion
+      :initial="{y:800}"
+      :click-9="{y:0}"
+    >
+      <mdi:lightbulb class="text-3xl"/>
+      <span class="text-4"><b>&nbsp;Leveraging &nbsp;Opportunitiess</b></span>
+    </div>
+    <br>
+    <div class="mx-7">
+      <ul>
+        <li
+        v-click="10"
+        v-motion
+          :initial="{y:800}"
+          :click-10="{y:0}"
+        >Professional organizations</li>
+        <li
+        v-click="11"
+        v-motion
+          :initial="{y:800}"
+          :click-11="{y:0}"
+        >Online platforms</li>
+        <li
+        v-click="12"
+        v-motion
+          :initial="{y:800}"
+          :click-12="{y:0}"
+        >Mentorship programs</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="absolute bottom-5 right-10">
+  <span class="text-xs font-400">
+    220329 | Shahreer Islam Sayem
   </span>
 </div>
 
