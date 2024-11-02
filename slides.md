@@ -949,7 +949,217 @@ v-motion
 
 ---
 layout: image-right
-image: cybersecurity_overview.png
+image: emerge.png
+class: text-sm
+transition: slide-up
+title: Emerging Tech
+---
+
+<div 
+v-motion
+  :initial="{y:200}"
+  :click-1="{y:0}">
+<h1>Emerging Tech Overview</h1>
+</div>
+
+<br>
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="1"
+  v-motion
+    :initial="{x:-80}"
+    :enter="{x:0, transition: {delay: 100}}"
+>
+  <b>
+  Artificial Intelligence
+  </b>
+</div>
+
+<div>
+  <ul>
+    <li v-click="2">Natural Language Processing</li>
+    <li v-click="3">Computer Vision</li>
+  </ul>
+</div>
+
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="4"
+  v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}"
+>
+  <b>
+  Machine Learning
+  </b>
+</div>
+
+<div>
+  <ul>
+    <li v-click="5">Supervised/Unsupervised learning</li>
+    <li v-click="6">Reinforcement learning</li>
+  </ul>
+</div>
+
+
+<div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
+  v-click="7"
+  v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}"
+>
+  <b>
+  Internet of Things
+  </b>
+</div>
+
+<div>
+  <ul>
+    <li v-click="8">Connected devices</li>
+    <li v-click="9">Automation and control</li>
+  </ul>
+</div>
+
+
+<div class="absolute bottom-5 right-10">
+  <span class="text-xs font-400">
+    220328 | S.M. Jahirul Islam Bayazed
+  </span>
+</div>
+
+---
+transition: slide-up
+title: Emerging tech 2
+---
+
+<h1 class="text-center"
+v-click="0"
+v-motion
+  :click-0="{y:200}"
+  :click-1="{y:0}"
+>The Power of Continuous Learning</h1>
+<br><br><br>
+
+<div class="grid grid-cols-3 text-3.5">
+  <div class="">
+    <div class="flex flex-row items-center"
+    v-click="1"
+    v-motion
+      :initial="{x:290, y:800}"
+      :click-1="{y:0, transition: {delay: 200}}"
+      :click-5="{x:0, transition: {delay: 0}}"
+    >
+      <mdi:trending-up class="text-3xl"/>
+      <span class="text-4"><b>&nbsp;Industry Trends</b></span>
+    </div>
+    <br>
+    <div class="mx-7">
+      <ul>
+        <li
+        v-click="2"
+        v-motion
+          :initial="{x:290, y:800}"
+          :click-2="{y:0}"
+          :click-5="{x:0}"
+        >Follow Tech News</li>
+        <li
+        v-click="3"
+        v-motion
+          :initial="{x:290, y:800}"
+          :click-3="{y:0}"
+          :click-5="{x:0}"
+        >Attend Events</li>
+        <li
+        v-click="4"
+        v-motion
+          :initial="{x:290, y:800}"
+          :click-4="{y:0}"
+          :click-5="{x:0}"
+        >Join Communities</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mx-5">
+    <div class="flex flex-row items-center"
+    v-click="5"
+    v-motion
+      :initial="{y:800}"
+      :click-5="{y:0, transition: {delay: 300}}"
+    >
+      <fa6-solid:money-bill-trend-up class="text-3xl"/>
+      <span class="text-4"><b>&nbsp;In-Demand Skills</b></span>
+    </div>
+    <br>
+    <div class="mx-7">
+      <ul>
+        <li
+        v-click="6"
+        v-motion
+          :initial="{y:800}"
+          :click-6="{y:0}"
+        >Learn Programming</li>
+        <li
+        v-click="7"
+        v-motion
+          :initial="{y:800}"
+          :click-7="{y:0}"
+        >Master Data Analysis</li>
+        <li
+        v-click="8"
+        v-motion
+          :initial="{y:800}"
+          :click-8="{y:0}"
+        >Gain Cloud Expertise</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="">
+    <div class="flex flex-row items-center"
+    v-click="9"
+    v-motion
+      :initial="{y:800}"
+      :click-9="{y:0}"
+    >
+      <hugeicons:elearning-exchange class="text-3xl"/>
+      <span class="text-4"><b>&nbsp;Lifelong Learning</b></span>
+    </div>
+    <br>
+    <div class="mx-7">
+      <ul>
+        <li
+        v-click="10"
+        v-motion
+          :initial="{y:800}"
+          :click-10="{y:0}"
+        >Online Courses</li>
+        <li
+        v-click="11"
+        v-motion
+          :initial="{y:800}"
+          :click-11="{y:0}"
+        >Hackathons</li>
+        <li
+        v-click="12"
+        v-motion
+          :initial="{y:800}"
+          :click-12="{y:0}"
+        >MExperimentation</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="absolute bottom-5 right-10">
+  <span class="text-xs font-400">
+    220328 | S.M. Jahirul Islam Bayazed
+  </span>
+</div>
+
+---
+layout: image-right
+image: strategy.png
 class: text-sm
 transition: slide-up
 title: Strategy
@@ -1029,7 +1239,7 @@ v-motion
 </div>
 
 ---
-transition: slide-up
+transition: fade-out
 title: Strategy 2
 ---
 
