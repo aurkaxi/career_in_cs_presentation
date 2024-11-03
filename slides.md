@@ -132,9 +132,8 @@ Factors Influencing Careers in Computer Science Field</h1>
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{x:290, y:800}"
-      :click-1 = "{y:0, transition: {delay: 200}}"
-      :click-5 = "{x:0, transition: {delay: 0}}"
+      :initial="{x:-290}"
+      :enter="{x:0, transition: {delay: 200}}"
     >
       <mdi:chart-timeline-variant-shimmer class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Career Opportunities</b></span>
@@ -144,25 +143,22 @@ Factors Influencing Careers in Computer Science Field</h1>
       <ul>
         <li v-click="2"
         v-motion
-          :initial = "{x:290, y:800}"
-          :click-1 = "{y:0}"
-          :click-5 = "{x:0}"
+          :initial = "{x:-290}"
+          :enter = "{x:0}"
         >
         Job Demand and Security</li>
         <li
-        v-click="3"
+        v-click="2"
         v-motion
-          :initial = "{x:290, y:800}"
-          :click-2 = "{y:0}"
-          :click-5 = "{x:0}"
+          :initial = "{x:-290}"
+          :enter = "{x:0, transition: {delay: 100}}"
         >
         Salary Potential</li>
         <li
-        v-click="4"
+        v-click="2"
         v-motion
-          :initial = "{x:290, y:800}"
-          :click-3 = "{y:0}"
-          :click-5 = "{x:0}"
+          :initial = "{x:-290}"
+          :enter = "{x:0, transition: {delay: 200}}"
         >
         Career Growth and Advancement</li>
       </ul>
@@ -171,10 +167,10 @@ Factors Influencing Careers in Computer Science Field</h1>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="3"
     v-motion
       :initial = "{y:800}"
-      :click-5 = "{y:0}"
+      :enter = "{y:0}"
     >
       <mdi:head-heart-outline class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Personal Fulfillment</b></span>
@@ -183,23 +179,23 @@ Factors Influencing Careers in Computer Science Field</h1>
     <div class="mx-7">
       <ul>
         <li
-        v-click="6"
+        v-click="4"
         v-motion
           :initial = "{y:800}"
-          :click-6 = "{y:0}"
+          :enter = "{y:0, transition: {delay: 100}}"
         >
         Interest and Passion for Technology</li>
         <li
-        v-click="7"
+        v-click="4"
         v-motion
           :initial = "{y:800}"
-          :click-7 = "{y:0}"
+          :enter = "{y:0, transition: {delay: 200}}"
         >Work-Life Balance and Flexibility</li>
         <li
-        v-click="8"
+        v-click="4"
         v-motion
           :initial = "{y:800}"
-          :click-8 = "{y:0}"
+          :enter = "{y:0, transition: {delay: 300}}"
         >Impact and Purpose</li>
       </ul>
     </div> 
@@ -207,10 +203,10 @@ Factors Influencing Careers in Computer Science Field</h1>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="9"
+    v-click="5"
     v-motion
       :initial = "{x:800}"
-      :click-9 = "{x:0, transition: {delay: 300}}"
+      :enter = "{x:0}"
     >
       <mdi:book-open-page-variant class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Skill Development</b></span>
@@ -219,23 +215,23 @@ Factors Influencing Careers in Computer Science Field</h1>
     <div class="mx-7">
       <ul>
         <li
-        v-click="10"
+        v-click="6"
         v-motion
           :initial = "{x:800}"
-          :click-10 = "{x:0}"
+          :enter = "{x:0, transition: {delay: 100}}"
         >
         Education</li>
         <li
-        v-click="11"
+        v-click="6"
         v-motion
           :initial = "{x:800}"
-          :click-11 = "{x:0}"
+          :enter = "{x:0, transition: {delay: 200}}"
         >Skill Requirements</li>
         <li
-        v-click="12"
+        v-click="6"
         v-motion
           :initial = "{x:800}"
-          :click-12 = "{x:0}"
+          :enter = "{x:0, transition: {delay: 300}}"
         >Networking and Mentorship</li>
       </ul>
     </div>    
@@ -346,9 +342,8 @@ Sills Needed for Software Development</h1>
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{x:290, y:800}"
-      :click-1="{y:0, transition: {delay: 200}}"
-      :click-8="{x:0, transition: {delay: 0}}"
+      :initial="{x:-290}"
+      :enter="{x:0, transition: {delay: 200}}"
     >
       <game-icons-wireframe-globe class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Web Development</b></span>
@@ -359,44 +354,38 @@ Sills Needed for Software Development</h1>
         <li
         v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-2="{y:0}"
-          :click-8="{x:0}"
+          :initial = "{x:-290}"
+          :enter = "{x:0}"
         >HTML, CSS</li>
         <li
-        v-click="3"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-3="{y:0}"
-          :click-8="{x:0}"
+          :initial = "{x:-290}"
+          :enter = "{x:0, transition: {delay: 100}}"
         >JavaScript, TypeScript</li>
         <li
-        v-click="4"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-4="{y:0}"
-          :click-8="{x:0}"
+          :initial = "{x:-290}"
+          :enter = "{x:0, transition: {delay: 200}}"
         >Backend Languages</li>
         <li
-        v-click="5"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-5="{y:0}"
-          :click-8="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 300}}"
         >NodeJs (JavaScript Runtime)</li>
         <li
-        v-click="6"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-6="{y:0}"
-          :click-8="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 400}}"
         >Python (often with frameworks like Django or Flask)</li>
         <li
-        v-click="7"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-7="{y:0}"
-          :click-8="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 500}}"
         >PHP (used with CMS)</li>
       </ul>
     </div>
@@ -404,10 +393,10 @@ Sills Needed for Software Development</h1>
 
   <div class="mx-3">
     <div class="flex flex-row items-center"
-    v-click="8"
+    v-click="3"
     v-motion
-      :initial="{y:800}"
-      :click-8="{y:0}"
+      :initial = "{y:800}"
+      :enter = "{y:0}"
     >
       <game-icons:smartphone class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Mobile App Development</b></span>
@@ -416,28 +405,28 @@ Sills Needed for Software Development</h1>
     <div class="mx-7">
     <ul>
       <li
-      v-click="9"
-      v-motion
-        :initial="{y:800}"
-        :click-9="{y:0}"
-      >React Native</li>
+      v-click="4"
+        v-motion
+          :initial = "{y:800}"
+          :enter = "{y:0, transition: {delay: 100}}"
+        >React Native</li>
       <li
-      v-click="10"
+      v-click="4"
       v-motion
         :initial="{y:800}"
-        :click-10="{y:0}"
+        :enter="{y:0, transition: {delay: 200}}"
       >Flutter</li>
       <li
-      v-click="11"
+      v-click="4"
       v-motion
         :initial="{y:800}"
-        :click-11="{y:0}"
+        :enter="{y:0, transition: {delay: 300}}"
       >Xamarin (.NET/C#)</li>
       <li
-      v-click="12"
+      v-click="4"
       v-motion
         :initial="{y:800}"
-        :click-12="{y:0}"
+        :enter="{y:0, transition: {delay: 400}}"
       >Swift (iOS)</li>
     </ul>
     </div>
@@ -445,10 +434,10 @@ Sills Needed for Software Development</h1>
 
   <div class="mx-7">
     <div class="flex flex-row items-center"
-    v-click="13"
+    v-click="5"
     v-motion
-      :initial="{x:800}"
-      :click-13="{x:0, transition: {delay: 300}}"
+      :initial = "{x:800}"
+      :enter = "{x:0}"
     >
       <game-icons:console-controller class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Game Development</b></span>
@@ -457,34 +446,34 @@ Sills Needed for Software Development</h1>
     <div class="mx-7">
     <ul>
       <li
-      v-click="14"
+      v-click="6"
       v-motion
-        :initial="{x:800}"
-        :click-14="{x:0}"
+        :initial = "{x:800}"
+        :enter = "{x:0, transition: {delay: 100}}"
       >C++ (Unreal Engine)</li>
       <li
-      v-click="15"
+      v-click="6"
       v-motion
         :initial="{x:800}"
-        :click-15="{x:0}"
+        :enter="{x:0, transition: {delay: 200}}"
       >C# (Unity)</li>
       <li
-      v-click="16"
+      v-click="6"
       v-motion
         :initial="{x:800}"
-        :click-16="{x:0}"
+        :enter="{x:0, transition: {delay: 300}}"
       >Java</li>
       <li
-      v-click="17"
+      v-click="6"
       v-motion
         :initial="{x:800}"
-        :click-17="{x:0}"
+        :enter="{x:0, transition: {delay: 400}}"
       >Python</li>
       <li
-      v-click="18"
+      v-click="6"
       v-motion
         :initial="{x:800}"
-        :click-18="{x:0}"
+        :enter="{x:0, transition: {delay: 500}}"
       >Graphics Engines: Unreal Engine, Unity</li>
     </ul>
     </div>
@@ -594,9 +583,8 @@ v-motion
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{x: 290, y: 800}"
-      :click-1="{y:0, transition: {delay: 200}}"
-      :click-5="{x:0, transition: {delay: 0}}"
+      :initial="{x:-290}"
+      :enter="{x:0, transition: {delay: 200}}"
     >
       <mdi:chart-line class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Statistical Analysis</b></span>
@@ -607,23 +595,20 @@ v-motion
         <li
         v-click="2"
         v-motion
-          :initial="{x: 290, y: 800}"
-          :click-2="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0}"
         >Framework for understanding data.</li>
         <li
-        v-click="3"
+        v-click="2"
         v-motion
-          :initial="{x: 290, y: 800}"
-          :click-3="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x: -290}"
+          :enter="{x:0, transition: {delay: 100}}"
         >Identifies patterns and trends.</li>
         <li
-        v-click="4"
+        v-click="2"
         v-motion
-          :initial="{x: 290, y: 800}"
-          :click-4="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x: -290}"
+          :enter="{x:0, transition: {delay: 200}}"
         >Enables data-driven decisions.</li>
       </ul>
     </div>
@@ -631,10 +616,10 @@ v-motion
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="3"
     v-motion
       :initial="{y: 800}"
-      :click-5="{y:0}"
+      :enter="{y:0}"
     >
       <mdi:chart-arc class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Data Interpretation</b></span>
@@ -643,32 +628,32 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6"
+        v-click="4"
         v-motion
           :initial="{y: 800}"
-          :click-6="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >Translates complex data into clear stories.</li>
         <li
-        v-click="7"
+        v-click="4"
         v-motion
           :initial="{y: 800}"
-          :click-7="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Communicates findings to diverse audiences.</li>
         <li
-        v-click="8"
+        v-click="4"
         v-motion
           :initial="{y: 800}"
-          :click-8="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >Uses visualizations for better understanding.</li>
       </ul>
     </div>
   </div>
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="9"
+    v-click="5"
     v-motion
       :initial="{x: 800}"
-      :click-9="{x:0, transition: {delay: 300}}"
+      :enter="{x:0}"
     >
       <mdi:scale-balance class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Data-Driven Decision &nbsp;Making</b></span>
@@ -677,22 +662,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="10"
+        v-click="6"
         v-motion
           :initial="{x: 800}"
-          :click-10="{x:0}"
+          :enter="{x:0, transition: {delay: 100}}"
         >Leverages data insights for informed choices.</li>
         <li
-        v-click="11"
+        v-click="6"
         v-motion
           :initial="{x: 800}"
-          :click-11="{x:0}"
+          :enter="{x:0, transition: {delay: 200}}"
         >Optimizes processes and strategies.</li>
         <li
-        v-click="12"
+        v-click="6"
         v-motion
           :initial="{x: 800}"
-          :click-12="{x:0}"
+          :enter="{x:0, transition: {delay: 300}}"
         >Boosts performance and competitiveness.</li>    </ul>
     </div>
   </div>
@@ -803,9 +788,8 @@ v-motion
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{x:290, y:800}"
-      :click-1="{y:0, transition: {delay: 200}}"
-      :click-7="{x:0, transition: {delay: 0}}"
+      :initial="{x:-290}"
+      :enter="{x:0, transition: {delay: 200}}"
     >
       <hugeicons:nano-technology class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Technical Skills</b></span>
@@ -816,37 +800,32 @@ v-motion
         <li
         v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-2="{y:0}"
-          :click-7="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0}"
         >Networking</li>
         <li
-        v-click="3"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-3="{y:0}"
-          :click-7="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 100}}"
         >Operating Systems (Windows, Linux, macOS)</li>
         <li
-        v-click="4"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-4="{y:0}"
-          :click-7="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 200}}"
         >Programming (Python, Java, C++)</li>
         <li
-        v-click="5"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-5="{y:0}"
-          :click-7="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 300}}"
         >Cryptography</li>
         <li
-        v-click="6"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-6="{y:0}"
-          :click-7="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 400}}"
         >Database Security</li>
       </ul>
     </div>
@@ -854,10 +833,10 @@ v-motion
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="7"
+    v-click="3"
     v-motion
       :initial="{y:800}"
-      :click-7="{y:0, transition: {delay: 300}}"
+      :enter="{y:0}"
     >
       <hugeicons:brain-02 class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Soft Skills</b></span>
@@ -866,34 +845,34 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="8"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-8="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >Problem-solving</li>
         <li
-        v-click="9"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-9="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Critical thinking</li>
         <li
-        v-click="10"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-10="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >Communication</li>
         <li
-        v-click="11"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-11="{y:0}"
+          :enter="{y:0, transition: {delay: 400}}"
         >Attention to detail</li>
         <li
-        v-click="12"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-12="{y:0}"
+          :enter="{y:0, transition: {delay: 500}}"
         >Adaptability</li>
       </ul>
     </div>
@@ -901,10 +880,10 @@ v-motion
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="13"
+    v-click="5"
     v-motion
       :initial="{y:800}"
-      :click-13="{y:0}"
+      :enter="{y:0}"
     >
       <hugeicons:certificate-01 class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Certifications</b></span>
@@ -913,28 +892,28 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="14"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-14="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >CompTIA Security+</li>
         <li
-        v-click="15"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-15="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Certified Ethical Hacker (CEH)</li>
         <li
-        v-click="16"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-16="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >Certified Information Systems Security Professional (CISSP)</li>
         <li
-        v-click="17"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-17="{y:0}"
+          :enter="{y:0, transition: {delay: 400}}"
         >Certified Information Security Manager (CISM)</li>
       </ul>
     </div>
@@ -1045,9 +1024,8 @@ v-motion
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{x:290, y:800}"
-      :click-1="{y:0, transition: {delay: 200}}"
-      :click-5="{x:0, transition: {delay: 0}}"
+      :initial="{x:-290}"
+      :enter="{x:0, transition: {delay: 200}}"
     >
       <mdi:trending-up class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Industry Trends</b></span>
@@ -1058,23 +1036,20 @@ v-motion
         <li
         v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-2="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0}"
         >Follow Tech News</li>
         <li
-        v-click="3"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-3="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 100}}"
         >Attend Events</li>
         <li
-        v-click="4"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-4="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 200}}"
         >Join Communities</li>
       </ul>
     </div>
@@ -1082,10 +1057,10 @@ v-motion
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="3"
     v-motion
       :initial="{y:800}"
-      :click-5="{y:0, transition: {delay: 300}}"
+      :enter="{y:0}"
     >
       <fa6-solid:money-bill-trend-up class="text-3xl"/>
       <span class="text-4"><b>&nbsp;In-Demand Skills</b></span>
@@ -1094,22 +1069,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-6="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >Learn Programming</li>
         <li
-        v-click="7"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-7="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Master Data Analysis</li>
         <li
-        v-click="8"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-8="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >Gain Cloud Expertise</li>
       </ul>
     </div>
@@ -1117,10 +1092,10 @@ v-motion
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="9"
+    v-click="5"
     v-motion
       :initial="{y:800}"
-      :click-9="{y:0}"
+      :enter="{y:0}"
     >
       <hugeicons:elearning-exchange class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Lifelong Learning</b></span>
@@ -1129,22 +1104,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="10"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-10="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >Online Courses</li>
         <li
-        v-click="11"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-11="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Hackathons</li>
         <li
-        v-click="12"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-12="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >MExperimentation</li>
       </ul>
     </div>
@@ -1256,9 +1231,8 @@ v-motion
     <div class="flex flex-row items-center"
     v-click="1"
     v-motion
-      :initial="{x:290, y:800}"
-      :click-1="{y:0, transition: {delay: 200}}"
-      :click-5="{x:0, transition: {delay: 0}}"
+      :initial="{x:-290}"
+      :enter="{x:0, transition: {delay: 200}}"
     >
       <fluent:people-community-12-filled class="text-3xl"/>
       <span class="text-4"><b>&nbsp;The Importance of &nbsp;Networking</b></span>
@@ -1269,23 +1243,20 @@ v-motion
         <li
         v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-2="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0}"
         >Expand connections</li>
         <li
-        v-click="3"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-3="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 100}}"
         >Advice and guidance</li>
         <li
-        v-click="4"
+        v-click="2"
         v-motion
-          :initial="{x:290, y:800}"
-          :click-4="{y:0}"
-          :click-5="{x:0}"
+          :initial="{x:-290}"
+          :enter="{x:0, transition: {delay: 200}}"
         >Collaborate</li>
       </ul>
     </div>
@@ -1293,10 +1264,10 @@ v-motion
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="3"
     v-motion
       :initial="{y:800}"
-      :click-5="{y:0, transition: {delay: 300}}"
+      :enter="{y:0}"
     >
       <hugeicons:mentor class="text-3xl"/>
       <span class="text-4"><b>&nbsp;The Benefits of &nbsp;Mentorship</b></span>
@@ -1305,22 +1276,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-6="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >Career guidance</li>
         <li
-        v-click="7"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-7="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Skill development</li>
         <li
-        v-click="8"
+        v-click="4"
         v-motion
           :initial="{y:800}"
-          :click-8="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >Support and encouragement</li>
       </ul>
     </div>
@@ -1328,10 +1299,10 @@ v-motion
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="9"
+    v-click="5"
     v-motion
       :initial="{y:800}"
-      :click-9="{y:0}"
+      :enter="{y:0}"
     >
       <mdi:lightbulb class="text-3xl"/>
       <span class="text-4"><b>&nbsp;Leveraging &nbsp;Opportunitiess</b></span>
@@ -1340,22 +1311,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="10"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-10="{y:0}"
+          :enter="{y:0, transition: {delay: 100}}"
         >Professional organizations</li>
         <li
-        v-click="11"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-11="{y:0}"
+          :enter="{y:0, transition: {delay: 200}}"
         >Online platforms</li>
         <li
-        v-click="12"
+        v-click="6"
         v-motion
           :initial="{y:800}"
-          :click-12="{y:0}"
+          :enter="{y:0, transition: {delay: 300}}"
         >Mentorship programs</li>
       </ul>
     </div>
