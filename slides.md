@@ -272,8 +272,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Building websites and web applications</li>
-    <li v-click="3">Frontend, Backend, and Full Stack options</li>
+    <li v-click="2">Websites & WebApps</li>
+    <li v-click="3">Frontend / Backend / Full Stack</li>
   </ul>
 </div>
 
@@ -291,7 +291,7 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Creating apps for iOS and Android</li>
+    <li v-click="5">iOS & Android</li>
     <li v-click="6">Cross-platform vs. Native development</li>
   </ul>
 </div>
@@ -310,8 +310,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="8">Developing interactive games for different platforms</li>
-    <li v-click="9">Unity, Unreal Engine, etc.</li>
+    <li v-click="8">Interactive games</li>
+    <li v-click="9">Game Engines</li>
   </ul>
 </div>
 
@@ -368,25 +368,7 @@ Sills Needed for Software Development</h1>
         v-motion
           :initial = "{x:-290}"
           :enter = "{x:0, transition: {delay: 200}}"
-        >Backend Languages</li>
-        <li
-        v-click="2"
-        v-motion
-          :initial="{x:-290}"
-          :enter="{x:0, transition: {delay: 300}}"
-        >NodeJs (JavaScript Runtime)</li>
-        <li
-        v-click="2"
-        v-motion
-          :initial="{x:-290}"
-          :enter="{x:0, transition: {delay: 400}}"
-        >Python (often with frameworks like Django or Flask)</li>
-        <li
-        v-click="2"
-        v-motion
-          :initial="{x:-290}"
-          :enter="{x:0, transition: {delay: 500}}"
-        >PHP (used with CMS)</li>
+        >Backend Languages (NodeJS, Python, PHP)</li>
       </ul>
     </div>
   </div>
@@ -450,30 +432,12 @@ Sills Needed for Software Development</h1>
       v-motion
         :initial = "{x:800}"
         :enter = "{x:0, transition: {delay: 100}}"
-      >C++ (Unreal Engine)</li>
+      >Languages: C++, C#, Java, Python</li>
       <li
       v-click="6"
       v-motion
         :initial="{x:800}"
         :enter="{x:0, transition: {delay: 200}}"
-      >C# (Unity)</li>
-      <li
-      v-click="6"
-      v-motion
-        :initial="{x:800}"
-        :enter="{x:0, transition: {delay: 300}}"
-      >Java</li>
-      <li
-      v-click="6"
-      v-motion
-        :initial="{x:800}"
-        :enter="{x:0, transition: {delay: 400}}"
-      >Python</li>
-      <li
-      v-click="6"
-      v-motion
-        :initial="{x:800}"
-        :enter="{x:0, transition: {delay: 500}}"
       >Graphics Engines: Unreal Engine, Unity</li>
     </ul>
     </div>
@@ -514,8 +478,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Collects, cleans, and analyzes data.</li>
-    <li v-click="3">Uses SQL, Excel, and data visualization tools.</li>
+    <li v-click="2">Data Analyzation & Cleaning</li>
+    <li v-click="3">SQL & Visualization Tools</li>
   </ul>
 </div>
 
@@ -533,9 +497,9 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Builds and maintains data pipelines.</li>
-    <li v-click="6">Handles large datasets & complex systems.</li>
-    <li v-click="7">Strong programming skills required.</li>
+    <li v-click="5">Data pipeline management</li>
+    <li v-click="6">Complex datasets handling</li>
+    <li v-click="7">Programming skills</li>
   </ul>
 </div>
 
@@ -553,8 +517,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="9">Combines statistics, machine learning, and domain knowledge.</li>
-    <li v-click="10">Develops predictive models and algorithms.</li>
+    <li v-click="9">Statistics & ML</li>
+    <li v-click="10">Predictive Models</li>
   </ul>
 </div>
 
@@ -808,13 +772,13 @@ v-motion
         v-motion
           :initial="{x:-290}"
           :enter="{x:0, transition: {delay: 100}}"
-        >Operating Systems (Windows, Linux, macOS)</li>
+        >Operating Systems</li>
         <li
         v-click="2"
         v-motion
           :initial="{x:-290}"
           :enter="{x:0, transition: {delay: 200}}"
-        >Programming (Python, Java, C++)</li>
+        >Programming</li>
         <li
         v-click="2"
         v-motion
@@ -896,25 +860,19 @@ v-motion
         v-motion
           :initial="{y:800}"
           :enter="{y:0, transition: {delay: 100}}"
-        >CompTIA Security+</li>
+        >OSCP</li>
         <li
         v-click="6"
         v-motion
           :initial="{y:800}"
           :enter="{y:0, transition: {delay: 200}}"
-        >Certified Ethical Hacker (CEH)</li>
+        >GIAC</li>
         <li
         v-click="6"
         v-motion
           :initial="{y:800}"
           :enter="{y:0, transition: {delay: 300}}"
-        >Certified Information Systems Security Professional (CISSP)</li>
-        <li
-        v-click="6"
-        v-motion
-          :initial="{y:800}"
-          :enter="{y:0, transition: {delay: 400}}"
-        >Certified Information Security Manager (CISM)</li>
+        >CISSP</li>
       </ul>
     </div>
   </div>
