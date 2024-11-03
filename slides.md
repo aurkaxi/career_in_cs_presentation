@@ -125,7 +125,7 @@ v-motion
   :click-1 = "{y:0}"
 >
 Factors Influencing Careers in Computer Science Field</h1>
-<br><br><br>
+<br><br>
 
 <div class="grid grid-cols-3 text-3.5">
   <div class="">
@@ -334,8 +334,7 @@ v-motion
   :click-1="{y:0}"
 >
 Sills Needed for Software Development</h1>
-<br>
-<br>
+<br><br><br>
 
 <div class="grid grid-cols-3 text-3.5">
   <div class="">
@@ -464,6 +463,8 @@ v-motion
   :click-1="{y:0}">
 <h1>A World of Data Opportunities</h1>
 </div>
+
+<br>
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
   v-click="1"
@@ -669,6 +670,7 @@ v-motion
 <h2>A Thriving Career Path</h2>
 </div>
 
+<br>
 <br>
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
@@ -1182,7 +1184,7 @@ v-motion
   :click-0="{y:200}"
   :click-1="{y:0}"
 >Building Your Professional Network and Seeking Mentorship</h1>
-<br><br><br>
+<br><br>
 
 <div class="grid grid-cols-3 text-3.5">
   <div class="">
