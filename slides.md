@@ -333,7 +333,7 @@ v-motion
   :click-0="{y:200}"
   :click-1="{y:0}"
 >
-SKills Needed for Software Development</h1>
+Skills Needed for Software Development</h1>
 <br><br><br>
 
 <div class="grid grid-cols-3 text-3.5">
