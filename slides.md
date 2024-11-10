@@ -72,13 +72,13 @@ v-motion
 <div>
   <ul>
     <li v-click="2">Meaning of Career</li>
-    <li v-click="3">Choosing a Path</li>
+    <li v-click="2">Choosing a Path</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="4"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -90,14 +90,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Hardware Based Field</li>
-    <li v-click="6">Tech Field</li>
+    <li v-click="4">Hardware Based Field</li>
+    <li v-click="4">Tech Field</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="7"
+  v-click="5"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -273,13 +273,13 @@ v-motion
 <div>
   <ul>
     <li v-click="2">Websites & WebApps</li>
-    <li v-click="3">Frontend / Backend / Full Stack</li>
+    <li v-click="2">Frontend / Backend / Full Stack</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="4"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -291,14 +291,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">iOS & Android</li>
-    <li v-click="6">Cross-platform vs. Native development</li>
+    <li v-click="4">iOS & Android</li>
+    <li v-click="4">Cross-platform vs. Native development</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="7"
+  v-click="5"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -310,8 +310,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="8">Interactive games</li>
-    <li v-click="9">Game Engines</li>
+    <li v-click="6">Interactive games</li>
+    <li v-click="6">Game Engines</li>
   </ul>
 </div>
 
@@ -333,7 +333,7 @@ v-motion
   :click-0="{y:200}"
   :click-1="{y:0}"
 >
-Sills Needed for Software Development</h1>
+SKills Needed for Software Development</h1>
 <br><br><br>
 
 <div class="grid grid-cols-3 text-3.5">
@@ -480,13 +480,13 @@ v-motion
 <div>
   <ul>
     <li v-click="2">Data Analyzation & Cleaning</li>
-    <li v-click="3">SQL & Visualization Tools</li>
+    <li v-click="2">SQL & Visualization Tools</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="4"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -498,15 +498,15 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Data pipeline management</li>
-    <li v-click="6">Complex datasets handling</li>
-    <li v-click="7">Programming skills</li>
+    <li v-click="4">Data pipeline management</li>
+    <li v-click="4">Complex datasets handling</li>
+    <li v-click="4">Programming skills</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="8"
+  v-click="5"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -518,8 +518,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="9">Statistics & ML</li>
-    <li v-click="10">Predictive Models</li>
+    <li v-click="6">Statistics & ML</li>
+    <li v-click="6">Predictive Models</li>
   </ul>
 </div>
 
@@ -687,13 +687,13 @@ v-motion
 <div>
   <ul>
     <li v-click="2">Risk Mitigation</li>
-    <li v-click="3">Threat Response</li>
+    <li v-click="2">Threat Response</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="4"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -705,14 +705,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Simulates attacks</li>
-    <li v-click="6">Tests security</li>
+    <li v-click="4">Simulates attacks</li>
+    <li v-click="4">Tests security</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="7"
+  v-click="5"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -724,8 +724,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="8">Infrastructure Design</li>
-    <li v-click="9">Solutions & Audits</li>
+    <li v-click="6">Infrastructure Design</li>
+    <li v-click="6">Solutions & Audits</li>
   </ul>
 </div>
 
@@ -917,13 +917,13 @@ v-motion
 <div>
   <ul>
     <li v-click="2">Natural Language Processing</li>
-    <li v-click="3">Computer Vision</li>
+    <li v-click="2">Computer Vision</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="4"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -935,14 +935,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Supervised/Unsupervised learning</li>
-    <li v-click="6">Reinforcement learning</li>
+    <li v-click="4">Supervised/Unsupervised learning</li>
+    <li v-click="4">Reinforcement learning</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="7"
+  v-click="5"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -954,8 +954,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="8">Connected devices</li>
-    <li v-click="9">Automation and control</li>
+    <li v-click="6">Connected devices</li>
+    <li v-click="6">Automation and control</li>
   </ul>
 </div>
 
@@ -1124,13 +1124,13 @@ v-motion
 <div>
   <ul>
     <li v-click="2">Real-world experience</li>
-    <li v-click="3">Networking opportunities.</li>
+    <li v-click="2">Networking opportunities.</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="4"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -1142,14 +1142,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="5">Career advancement</li>
-    <li v-click="6">Industry recognition</li>
+    <li v-click="4">Career advancement</li>
+    <li v-click="4">Industry recognition</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="7"
+  v-click="5"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -1161,8 +1161,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="8">Stay updated</li>
-    <li v-click="9">Skill development</li>
+    <li v-click="6">Stay updated</li>
+    <li v-click="6">Skill development</li>
   </ul>
 </div>
 
