@@ -1071,4 +1071,28 @@ v-motion
 layout: center
 ---
 
+<div class="text-center">
+
 # Explore ● Invest ● Connect
+
+</div>
+<div class="text-center text-sm">
+  <p>Thank you for joining us!</p>
+</div>
+<br>
+<div class="grid grid-cols-2">
+  <div class="">
+
+  - Atika Israt Ethila (220322)
+  - Araf Mahmud (220327)
+  - MD. Naeem Hossen (220325)
+
+  </div>
+  <div class="">
+
+  - Abdullah Al Muaz (Aurka) (220324)
+  - S.M. Jahirul Islam Bayazed (220328)
+  - Shahreer Islam Sayem (220329)
+
+  </div>
+</div>
