@@ -71,14 +71,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Meaning of Career</li>
-    <li v-click="2">Choosing a Path</li>
+    <li v-click="1">Meaning of Career</li>
+    <li v-click="1">Choosing a Path</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="2"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -90,14 +90,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="4">Hardware Based Field</li>
-    <li v-click="4">Tech Field</li>
+    <li v-click="2">Hardware Based Field</li>
+    <li v-click="2">Tech Field</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="5"
+  v-click="3"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
