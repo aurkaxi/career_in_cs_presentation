@@ -78,7 +78,7 @@ v-motion
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="2"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -90,14 +90,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Hardware Based Field</li>
-    <li v-click="2">Tech Field</li>
+    <li v-click="1">Hardware Based Field</li>
+    <li v-click="1">Tech Field</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -141,13 +141,13 @@ Factors Influencing Careers in Computer Science Field</h1>
     <br>
     <div class="mx-7">
       <ul>
-        <li v-click="2">
+        <li v-click="1">
         Job Demand and Security</li>
         <li
-        v-click="2">
+        v-click="1">
         Salary Potential</li>
         <li
-        v-click="2">
+        v-click="1">
         Career Growth and Advancement</li>
       </ul>
     </div>
@@ -155,7 +155,7 @@ Factors Influencing Careers in Computer Science Field</h1>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="3"
+    v-click="1"
     v-motion
       :initial = "{y:800}"
       :enter = "{y:0}"
@@ -167,19 +167,19 @@ Factors Influencing Careers in Computer Science Field</h1>
     <div class="mx-7">
       <ul>
         <li
-        v-click="4">
+        v-click="1">
         Interest and Passion for Technology</li>
         <li
-        v-click="4">Work-Life Balance and Flexibility</li>
+        v-click="1">Work-Life Balance and Flexibility</li>
         <li
-        v-click="4">Impact and Purpose</li>
+        v-click="1">Impact and Purpose</li>
       </ul>
     </div> 
   </div>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="1"
     v-motion
       :initial = "{x:800}"
       :enter = "{x:0}"
@@ -191,12 +191,12 @@ Factors Influencing Careers in Computer Science Field</h1>
     <div class="mx-7">
       <ul>
         <li
-        v-click="6">
+        v-click="1">
         Education</li>
         <li
-        v-click="6">Skill Requirements</li>
+        v-click="1">Skill Requirements</li>
         <li
-        v-click="6">Networking and Mentorship</li>
+        v-click="1">Networking and Mentorship</li>
       </ul>
     </div>    
   </div>
@@ -236,14 +236,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Websites & WebApps</li>
-    <li v-click="2">Frontend / Backend / Full Stack</li>
+    <li v-click="1">Websites & WebApps</li>
+    <li v-click="1">Frontend / Backend / Full Stack</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -255,14 +255,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="4">iOS & Android</li>
-    <li v-click="4">Cross-platform vs. Native development</li>
+    <li v-click="1">iOS & Android</li>
+    <li v-click="1">Cross-platform vs. Native development</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="5"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -274,8 +274,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="6">Interactive games</li>
-    <li v-click="6">Game Engines</li>
+    <li v-click="1">Interactive games</li>
+    <li v-click="1">Game Engines</li>
   </ul>
 </div>
 
@@ -315,18 +315,18 @@ Skills Needed for Software Development</h1>
     <div class="mx-7">
       <ul>
         <li
-        v-click="2">HTML, CSS</li>
+        v-click="1">HTML, CSS</li>
         <li
-        v-click="2">JavaScript, TypeScript</li>
+        v-click="1">JavaScript, TypeScript</li>
         <li
-        v-click="2">Backend Languages (NodeJS, Python, PHP)</li>
+        v-click="1">Backend Languages (NodeJS, Python, PHP)</li>
       </ul>
     </div>
   </div>
 
   <div class="mx-3">
     <div class="flex flex-row items-center"
-    v-click="3"
+    v-click="1"
     v-motion
       :initial = "{y:800}"
       :enter = "{y:0}"
@@ -338,20 +338,20 @@ Skills Needed for Software Development</h1>
     <div class="mx-7">
     <ul>
       <li
-      v-click="4">React Native</li>
+      v-click="1">React Native</li>
       <li
-      v-click="4">Flutter</li>
+      v-click="1">Flutter</li>
       <li
-      v-click="4">Xamarin (.NET/C#)</li>
+      v-click="1">Xamarin (.NET/C#)</li>
       <li
-      v-click="4">Swift (iOS)</li>
+      v-click="1">Swift (iOS)</li>
     </ul>
     </div>
   </div>
 
   <div class="mx-7">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="1"
     v-motion
       :initial = "{x:800}"
       :enter = "{x:0}"
@@ -363,9 +363,9 @@ Skills Needed for Software Development</h1>
     <div class="mx-7">
     <ul>
       <li
-      v-click="6">Languages: C++, C#, Java, Python</li>
+      v-click="1">Languages: C++, C#, Java, Python</li>
       <li
-      v-click="6">Graphics Engines: Unreal Engine, Unity</li>
+      v-click="1">Graphics Engines: Unreal Engine, Unity</li>
     </ul>
     </div>
   </div>
@@ -407,14 +407,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Data Analyzation & Cleaning</li>
-    <li v-click="2">SQL & Visualization Tools</li>
+    <li v-click="1">Data Analyzation & Cleaning</li>
+    <li v-click="1">SQL & Visualization Tools</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -426,15 +426,15 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="4">Data pipeline management</li>
-    <li v-click="4">Complex datasets handling</li>
-    <li v-click="4">Programming skills</li>
+    <li v-click="1">Data pipeline management</li>
+    <li v-click="1">Complex datasets handling</li>
+    <li v-click="1">Programming skills</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="5"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -446,8 +446,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="6">Statistics & ML</li>
-    <li v-click="6">Predictive Models</li>
+    <li v-click="1">Statistics & ML</li>
+    <li v-click="1">Predictive Models</li>
   </ul>
 </div>
 
@@ -486,18 +486,18 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="2">Framework for understanding data.</li>
+        v-click="1">Framework for understanding data.</li>
         <li
-        v-click="2">Identifies patterns and trends.</li>
+        v-click="1">Identifies patterns and trends.</li>
         <li
-        v-click="2">Enables data-driven decisions.</li>
+        v-click="1">Enables data-driven decisions.</li>
       </ul>
     </div>
   </div>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="3"
+    v-click="1"
     v-motion
       :initial="{y: 800}"
       :enter="{y:0}"
@@ -509,17 +509,17 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="4">Translates complex data into clear stories.</li>
+        v-click="1">Translates complex data into clear stories.</li>
         <li
-        v-click="4">Communicates findings to diverse audiences.</li>
+        v-click="1">Communicates findings to diverse audiences.</li>
         <li
-        v-click="4">Uses visualizations for better understanding.</li>
+        v-click="1">Uses visualizations for better understanding.</li>
       </ul>
     </div>
   </div>
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="1"
     v-motion
       :initial="{x: 800}"
       :enter="{x:0}"
@@ -531,11 +531,11 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6">Leverages data insights for informed choices.</li>
+        v-click="1">Leverages data insights for informed choices.</li>
         <li
-        v-click="6">Optimizes processes and strategies.</li>
+        v-click="1">Optimizes processes and strategies.</li>
         <li
-        v-click="6">Boosts performance and competitiveness.</li>    </ul>
+        v-click="1">Boosts performance and competitiveness.</li>    </ul>
     </div>
   </div>
 </div>
@@ -578,14 +578,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Risk Mitigation</li>
-    <li v-click="2">Threat Response</li>
+    <li v-click="1">Risk Mitigation</li>
+    <li v-click="1">Threat Response</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -597,14 +597,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="4">Simulates attacks</li>
-    <li v-click="4">Tests security</li>
+    <li v-click="1">Simulates attacks</li>
+    <li v-click="1">Tests security</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="5"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -616,8 +616,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="6">Infrastructure Design</li>
-    <li v-click="6">Solutions & Audits</li>
+    <li v-click="1">Infrastructure Design</li>
+    <li v-click="1">Solutions & Audits</li>
   </ul>
 </div>
 
@@ -656,22 +656,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="2">Networking</li>
+        v-click="1">Networking</li>
         <li
-        v-click="2">Operating Systems</li>
+        v-click="1">Operating Systems</li>
         <li
-        v-click="2">Programming</li>
+        v-click="1">Programming</li>
         <li
-        v-click="2">Cryptography</li>
+        v-click="1">Cryptography</li>
         <li
-        v-click="2">Database Security</li>
+        v-click="1">Database Security</li>
       </ul>
     </div>
   </div>
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="3"
+    v-click="1"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -683,22 +683,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="4">Problem-solving</li>
+        v-click="1">Problem-solving</li>
         <li
-        v-click="4">Critical thinking</li>
+        v-click="1">Critical thinking</li>
         <li
-        v-click="4">Communication</li>
+        v-click="1">Communication</li>
         <li
-        v-click="4">Attention to detail</li>
+        v-click="1">Attention to detail</li>
         <li
-        v-click="4">Adaptability</li>
+        v-click="1">Adaptability</li>
       </ul>
     </div>
   </div>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="1"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -710,11 +710,11 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6">OSCP</li>
+        v-click="1">OSCP</li>
         <li
-        v-click="6">GIAC</li>
+        v-click="1">GIAC</li>
         <li
-        v-click="6">CISSP</li>
+        v-click="1">CISSP</li>
       </ul>
     </div>
   </div>
@@ -756,14 +756,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Natural Language Processing</li>
-    <li v-click="2">Computer Vision</li>
+    <li v-click="1">Natural Language Processing</li>
+    <li v-click="1">Computer Vision</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -775,14 +775,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="4">Supervised/Unsupervised learning</li>
-    <li v-click="4">Reinforcement learning</li>
+    <li v-click="1">Supervised/Unsupervised learning</li>
+    <li v-click="1">Reinforcement learning</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="5"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -794,8 +794,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="6">Connected devices</li>
-    <li v-click="6">Automation and control</li>
+    <li v-click="1">Connected devices</li>
+    <li v-click="1">Automation and control</li>
   </ul>
 </div>
 
@@ -834,18 +834,18 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="2">Follow Tech News</li>
+        v-click="1">Follow Tech News</li>
         <li
-        v-click="2">Attend Events</li>
+        v-click="1">Attend Events</li>
         <li
-        v-click="2">Join Communities</li>
+        v-click="1">Join Communities</li>
       </ul>
     </div>
   </div>
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="3"
+    v-click="1"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -857,18 +857,18 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="4">Learn Programming</li>
+        v-click="1">Learn Programming</li>
         <li
-        v-click="4">Master Data Analysis</li>
+        v-click="1">Master Data Analysis</li>
         <li
-        v-click="4">Gain Cloud Expertise</li>
+        v-click="1">Gain Cloud Expertise</li>
       </ul>
     </div>
   </div>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="1"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -880,11 +880,11 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6">Online Courses</li>
+        v-click="1">Online Courses</li>
         <li
-        v-click="6">Hackathons</li>
+        v-click="1">Hackathons</li>
         <li
-        v-click="6">MExperimentation</li>
+        v-click="1">MExperimentation</li>
       </ul>
     </div>
   </div>
@@ -927,14 +927,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="2">Real-world experience</li>
-    <li v-click="2">Networking opportunities.</li>
+    <li v-click="1">Real-world experience</li>
+    <li v-click="1">Networking opportunities.</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="3"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -946,14 +946,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="4">Career advancement</li>
-    <li v-click="4">Industry recognition</li>
+    <li v-click="1">Career advancement</li>
+    <li v-click="1">Industry recognition</li>
   </ul>
 </div>
 
 
 <div class="text-md pt-2 uppercase tracking-widest font-500 -ml-[0.05em]"
-  v-click="5"
+  v-click="1"
   v-motion
     :initial="{x:-80}"
     :enter="{x:0}"
@@ -965,8 +965,8 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="6">Stay updated</li>
-    <li v-click="6">Skill development</li>
+    <li v-click="1">Stay updated</li>
+    <li v-click="1">Skill development</li>
   </ul>
 </div>
 
@@ -1005,18 +1005,18 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="2">Expand connections</li>
+        v-click="1">Expand connections</li>
         <li
-        v-click="2">Advice and guidance</li>
+        v-click="1">Advice and guidance</li>
         <li
-        v-click="2">Collaborate</li>
+        v-click="1">Collaborate</li>
       </ul>
     </div>
   </div>
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="3"
+    v-click="1"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -1028,18 +1028,18 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="4">Career guidance</li>
+        v-click="1">Career guidance</li>
         <li
-        v-click="4">Skill development</li>
+        v-click="1">Skill development</li>
         <li
-        v-click="4">Support and encouragement</li>
+        v-click="1">Support and encouragement</li>
       </ul>
     </div>
   </div>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="5"
+    v-click="1"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -1051,11 +1051,11 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="6">Professional organizations</li>
+        v-click="1">Professional organizations</li>
         <li
-        v-click="6">Online platforms</li>
+        v-click="1">Online platforms</li>
         <li
-        v-click="6">Mentorship programs</li>
+        v-click="1">Mentorship programs</li>
       </ul>
     </div>
   </div>
