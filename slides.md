@@ -1071,13 +1071,13 @@ v-motion
 layout: center
 ---
 
+<div class="text-center text-sm">
+  <p>Thank you for joining us!</p>
+</div>
 <div class="text-center">
 
 # Explore ● Invest ● Connect
 
-</div>
-<div class="text-center text-sm">
-  <p>Thank you for joining us!</p>
 </div>
 <br>
 <div class="grid grid-cols-2">
