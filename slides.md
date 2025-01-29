@@ -578,8 +578,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="1">Risk Mitigation</li>
-    <li v-click="1">Threat Response</li>
+    <li v-click="2"
+    v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}">Risk Mitigation</li>
+    <li v-click="2"
+    v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}">Threat Response</li>
   </ul>
 </div>
 
@@ -597,8 +603,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="1">Simulates attacks</li>
-    <li v-click="1">Tests security</li>
+    <li v-click="3"
+    v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}">Simulates attacks</li>
+    <li v-click="3"
+    v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}">Tests security</li>
   </ul>
 </div>
 
@@ -616,8 +628,14 @@ v-motion
 
 <div>
   <ul>
-    <li v-click="1">Infrastructure Design</li>
-    <li v-click="1">Solutions & Audits</li>
+    <li v-click="4"
+    v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}">Infrastructure Design</li>
+    <li v-click="4"
+    v-motion
+    :initial="{x:-80}"
+    :enter="{x:0}">Solutions & Audits</li>
   </ul>
 </div>
 
@@ -671,7 +689,7 @@ v-motion
 
   <div class="mx-5">
     <div class="flex flex-row items-center"
-    v-click="1"
+    v-click="2"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -683,22 +701,22 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="1">Problem-solving</li>
+        v-click="2">Problem-solving</li>
         <li
-        v-click="1">Critical thinking</li>
+        v-click="2">Critical thinking</li>
         <li
-        v-click="1">Communication</li>
+        v-click="2">Communication</li>
         <li
-        v-click="1">Attention to detail</li>
+        v-click="2">Attention to detail</li>
         <li
-        v-click="1">Adaptability</li>
+        v-click="2">Adaptability</li>
       </ul>
     </div>
   </div>
 
   <div class="">
     <div class="flex flex-row items-center"
-    v-click="1"
+    v-click="3"
     v-motion
       :initial="{y:800}"
       :enter="{y:0}"
@@ -710,11 +728,11 @@ v-motion
     <div class="mx-7">
       <ul>
         <li
-        v-click="1">OSCP</li>
+        v-click="3">OSCP</li>
         <li
-        v-click="1">GIAC</li>
+        v-click="3">GIAC</li>
         <li
-        v-click="1">CISSP</li>
+        v-click="3">CISSP</li>
       </ul>
     </div>
   </div>
