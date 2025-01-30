@@ -109,7 +109,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220322 | Atika Israt Ethila
+    1039 | Atika Israt Ethila
   </span>
 </div>
 
@@ -204,7 +204,7 @@ Factors Influencing Careers in Computer Science Field</h1>
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220322 | Atika Israt Ethila
+    1039 | Atika Israt Ethila
   </span>
 </div>
 
@@ -282,7 +282,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220327 | Araf Mahmud
+    1016 | Araf Mahmud
   </span>
 </div>
 
@@ -373,7 +373,7 @@ Skills Needed for Software Development</h1>
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220327 | Araf Mahmud
+    1016 | Araf Mahmud
   </span>
 </div>
 
@@ -454,7 +454,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220325 | MD. Naeem Hossen
+    1035 | MD. Naeem Hossen
   </span>
 </div>
 
@@ -542,7 +542,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220325 | MD. Naeem Hossen
+    1035 | MD. Naeem Hossen
   </span>
 </div>
 
@@ -642,7 +642,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220324 | Abdullah Al Muaz (Aurka)
+    1043 | Abdullah Al Muaz (Aurka)
   </span>
 </div>
 
@@ -740,7 +740,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220324 | Abdullah Al Muaz (Aurka)
+    1043 | Abdullah Al Muaz (Aurka)
   </span>
 </div>
 
@@ -820,7 +820,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220328 | S.M. Jahirul Islam Bayazed
+    1018 | S.M. Jahirul Islam Bayazed
   </span>
 </div>
 
@@ -910,7 +910,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220328 | S.M. Jahirul Islam Bayazed
+    1018 | S.M. Jahirul Islam Bayazed
   </span>
 </div>
 
@@ -991,7 +991,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220329 | Shahreer Islam Sayem
+    1033 | Shahreer Islam Sayem
   </span>
 </div>
 
@@ -1081,7 +1081,7 @@ v-motion
 
 <div class="absolute bottom-5 right-10">
   <span class="text-xs font-400">
-    220329 | Shahreer Islam Sayem
+    1033 | Shahreer Islam Sayem
   </span>
 </div>
 
@@ -1101,16 +1101,16 @@ layout: center
 <div class="grid grid-cols-2">
   <div class="">
 
-  - Atika Israt Ethila (220322)
-  - Araf Mahmud (220327)
-  - MD. Naeem Hossen (220325)
+  - Atika Israt Ethila (1039)
+  - Araf Mahmud (1016)
+  - MD. Naeem Hossen (1035)
 
   </div>
   <div class="">
 
-  - Abdullah Al Muaz (Aurka) (220324)
-  - S.M. Jahirul Islam Bayazed (220328)
-  - Shahreer Islam Sayem (220329)
+  - Abdullah Al Muaz (Aurka) (1043)
+  - S.M. Jahirul Islam Bayazed (1018)
+  - Shahreer Islam Sayem (1033)
 
   </div>
 </div>
